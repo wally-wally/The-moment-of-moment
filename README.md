@@ -49,7 +49,7 @@ $ npm run serve
 
 :heavy_check_mark: <b>Deploy URL</b>
 
-You are accessible through deploy URL <a href="https://art-sample.firebaseapp.com" target="_blank"> `https://art-sample.firebaseapp.com`</a>.
+You are accessible through deploy URL <a href="https://art-sample.firebaseapp.com" target="_blank"> `https://bit.ly/3b307TY`</a>.
 
 <br>
 
