@@ -15,13 +15,13 @@
 
 :round_pushpin: <b>Framework</b> : `Vue.js`
 
-:round_pushpin: <b>Deployment(Hosting)</b> : `Firebase`
+:round_pushpin: <b>Deployment(Hosting)</b> : `Netlify`
 
 :round_pushpin: <b>Library</b> : `vue-router` , `vuex`, `Vuetify`, `AOS`
 
 :round_pushpin: <b>Editor</b> : `Visual Studio Code`
 
-:round_pushpin: <b>Development Enviornment</b> : Mac, Node.js 10.16.3, Vue CLI 4.2.3
+:round_pushpin: <b>Development Enviornment</b> : Node.js 10.16.3, Vue CLI 4.2.3
 
 <br>
 
@@ -69,6 +69,6 @@ You are accessible through deploy URL <a href="#" target="_blank"> `[deploy URL]
 
 ## :six: Copyright
 
-All copyrights on the code of this project and the homepage are in `심예은_이름` and [wally-wally](https://github.com/wally-wally).
+All copyrights on the code of this project and the homepage are in `project_owner` and [wally-wally](https://github.com/wally-wally).
 
 If you use the project code and the homepage without permission, authorization, you may be subject to legal punishment.
