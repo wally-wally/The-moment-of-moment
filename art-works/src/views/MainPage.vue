@@ -4,7 +4,7 @@
       그 순간의 찰나
     </div>
     <div class="button-groups">
-      <v-btn class="intro-button" outlined color="indigo" v-on:click="showDialog">Introduction</v-btn>
+      <v-btn class="intro-button" outlined color="indigo" v-on:click="showDialog">Documentation</v-btn>
       <router-link to="/intro">
         <v-btn class="start-button" outlined color="indigo">Get Started</v-btn>
       </router-link>
@@ -19,12 +19,18 @@
           class="headline grey lighten-3"
           primary-title
         >
-          <div class="dialog-title">"여러가지의 자아, 이기적인 내면, 그 순간의 찰나"</div>
+          <div class="dialog-title">홈페이지 사용 설명서</div>
         </v-card-title>
 
         <v-card-text class="pt-2">
-          <div class="dialog-text">
-            바쁘게 흘러가는 일상 중에 다른 면의 나와 직면하는 날이 있었다. 선의의 행동과 어투와 생각을 하고 있는 동시에 이기적인 마음과 모습을 동시에 가지고 있다는 것을 발견하게 되었다.
+          <div class="hi">
+            1. GET STARTED를 누른다.<br>
+            2. 다음 페이지로 넘어가고자 할 때 화살표 버튼을 누른다.<br>
+            3. 각 페이지에 나와있는 문구대로 실행한다.<br>
+            <hr>
+            <span class="alert-title">주의사항</span><br>
+            ※Google Chrome 브라우저에서 실행해주세요.※<br>
+            ※이 홈페이지는 모바일 세로 모드에 최적화되어있습니다.※
           </div>
         </v-card-text>
 
@@ -75,7 +81,7 @@ export default {
   color: rgba(0, 27, 84, .8);
   font-weight: 600;
   font-size: 35px;
-  font-family: 'Nanum Brush Script';
+  font-family: 'Nanum Brush Script', cursive;
   text-align: center;
   padding-top: 22vh;
 }
@@ -94,25 +100,35 @@ export default {
 }
 
 .dialog-title {
-  font-size: 13.5px;
-  font-family: 'Gothic A1';
-  font-weight: bold;
-  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-family: 'Noto Sans KR';
+  font-weight: bolder;
+  color: crimson;
 }
 
-.dialog-text {
-  font-size: 13.5px;
+.hi {
+  font-size: 15px;
+  font-weight: 900;
   font-family: 'Noto Sans KR';
-  color: grey;
   line-height: 1.8;
+  line-height: 200%;
 }
 
 .exit-button {
-  font-family: 'Noto Sans KR';
   font-weight: bold;
+  font-family: 'Noto Sans KR';
+  font-size: 14px;
 }
 
 a {
   text-decoration: none;
+}
+
+.alert-title {
+  color: crimson;
+}
+
+hr {
+  margin: 8px 0;
 }
 </style>
