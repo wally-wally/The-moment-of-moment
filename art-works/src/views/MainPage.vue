@@ -70,10 +70,9 @@ export default {
 
 <style scoped>
 .mainpage-wrapper {
-  background: url('../assets/mainpage01.png');
-  background-position: 30% 100%;
-  background-size: 145% 110%;
-  background-repeat: no-repeat;
+  background: url('../assets/mainpage01.jpg');
+  background-position: center;
+  background-size: cover;
   height: 100%;
 }
 

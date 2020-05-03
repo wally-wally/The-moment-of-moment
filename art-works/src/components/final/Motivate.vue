@@ -32,14 +32,14 @@ export default {
 
 .text{
   font-family: 'Noto Serif KR';
-  font-size: 3.25vw;
+  font-size: 3vw;
   color: antiquewhite;
   position: absolute; 
-  left: 50%;
+  left: 51%;
   top: 50%;
   transform: translate(-50%, -50%);
   width: 95%;
-  line-height: 2;
+  line-height: 2.3;
   letter-spacing: -0.1px;
 }
 

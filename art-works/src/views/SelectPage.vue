@@ -6,7 +6,7 @@
     </div>
     <div class="items">
       <div class="item">
-        <img src="../assets/items/sample.png" alt="sample">
+        <img src="../assets/items/sample.jpg" alt="sample">
       </div>
       <div class="item">
         <img src="../assets/items/wood.jpg" alt="wood" v-on:click="saveItemNum(1)">
@@ -46,7 +46,7 @@ export default {
   font-family: 'Noto Serif KR';
   text-align: center;
   margin: 0 10px;
-  font-size: 3.4vw;
+  font-size: 3vw;
   padding: 10px 0;
   line-height: 1.8;
 }

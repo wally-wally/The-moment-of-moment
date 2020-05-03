@@ -15,7 +15,7 @@
 
 :round_pushpin: <b>Framework</b> : `Vue.js`
 
-:round_pushpin: <b>Deployment(Hosting)</b> : `Netlify`
+:round_pushpin: <b>Deployment(Hosting)</b> : `Firebase`
 
 :round_pushpin: <b>Library</b> : `vue-router` , `vuex`, `Vuetify`, `AOS`
 
@@ -49,7 +49,7 @@ $ npm run serve
 
 :heavy_check_mark: <b>Deploy URL</b>
 
-You are accessible through deploy URL <a href="#" target="_blank"> `[deploy URL]`</a>.
+You are accessible through deploy URL <a href="https://art-sample.firebaseapp.com" target="_blank"> `https://art-sample.firebaseapp.com`</a>.
 
 <br>
 
@@ -63,7 +63,7 @@ You are accessible through deploy URL <a href="#" target="_blank"> `[deploy URL]
 
 ## :five: Homepage Screenshot
 
-<img src="#" alt="홈페이지 스크린샷" width="800">
+![homepage_sample](https://user-images.githubusercontent.com/52685250/80921040-9d3bf680-8dae-11ea-9bcf-67cd48603518.png)
 
 <br>
 

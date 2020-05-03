@@ -24,7 +24,7 @@ export default {
 
 .text {
   color: antiquewhite;
-  font-size: 4vw;
+  font-size: 3.8vw;
   font-weight: 900;
   font-family: 'Noto Serif KR';
   position: absolute;
@@ -34,6 +34,7 @@ export default {
   width: 100%;
   text-align: center;
   line-height: 2.5;
+  letter-spacing: -0.1px;
 }
 
 i {

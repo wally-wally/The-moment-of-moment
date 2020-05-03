@@ -6,7 +6,7 @@
       </div>
       <div class="alert-message">
         <p>화면 너비를 300px 이상 600px 이하로 조정해 주세요.</p>
-        <p>화면 높이를 480px 이상 960px 이하로 조정해 주세요.</p>
+        <p>화면 높이를 480px 이상 900px 이하로 조정해 주세요.</p>
       </div>
       <div class="now-screen-size">
         <p>현재 너비: {{ responsiveWidth }}px</p>

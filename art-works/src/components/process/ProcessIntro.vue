@@ -61,7 +61,6 @@ img {
 
 .select-alert {
   text-align: center;
-  width: 260px;
   margin: 15px auto 30px;
 }
 
@@ -69,7 +68,7 @@ span {
   background-color: antiquewhite;
   font-family: 'Noto Serif KR';
   color: #1d2652;
-  padding: 0 30px;
+  padding: 0 5px;
   font-weight: 600;
 }
 

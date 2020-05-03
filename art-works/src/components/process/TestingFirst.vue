@@ -20,7 +20,7 @@ export default {
   },
   methods: {
     imgUrl: function(number) {
-      return require(`../../assets/process_images/${this.source[this.num - 1]}/testing/${number}.png`)
+      return require(`../../assets/process_images/${this.source[this.num - 1]}/testing/${number}.jpg`)
     }
   }
 }
