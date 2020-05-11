@@ -70,7 +70,7 @@ You are accessible through deploy URL <a href="https://art-sample.firebaseapp.co
 
 <br>
 
-## :six: Notes
+## :six: Notes <a href="https://github.com/wally-wally/art-works/tree/master/notes" target="_blank">(Go to Notes)</a>
 
 - This is a file that organizes what you learned during the project into 'markdown'.
 
