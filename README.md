@@ -5,6 +5,7 @@
 ## :one: Overview
 
 - It's a project that I worked with as a mentor for <a href="https://github.com/ICY-SIM" target="_blank">ICY-SIM</a>'s Art-works project.
+- Project Period : 20.04.04 ~ 20.05.02
 
 <br>
 
