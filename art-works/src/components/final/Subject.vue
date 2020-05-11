@@ -3,7 +3,7 @@
     <div class="intro-section">
       <img src="../../assets/double_quotes1.png" alt="double_quotes">
       <div class="intro-name">
-        <div class="line"><span>여러가지의 자아,</span></div>
+        <div class="line"><span>여러 가지의 자아,</span></div>
         <div class="line"><span>이기적인 내면,</span></div>
         <div><span>그 순간의 찰나</span></div>
       </div>

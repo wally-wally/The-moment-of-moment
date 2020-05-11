@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <ExplorerAlert :dialog="dialog" @closeDialog="closeDialog"></ExplorerAlert>
     <div class="project-wrapper">
       <Header></Header>
       <v-content class="content-wrapper">
@@ -16,6 +17,7 @@
 <script>
 import Header from '@/components/common/Header'
 import Footer from '@/components/common/Footer'
+import ExplorerAlert from '@/components/common/ExplorerAlert.vue'
 import AlertPage from '@/views/AlertPage.vue'
 
 export default {
@@ -23,7 +25,26 @@ export default {
   components: {
     Header,
     Footer,
+    ExplorerAlert,
     AlertPage
+  },
+  data() {
+    return {
+      dialog: false
+    }
+  },
+  mounted() {
+    let agent = navigator.userAgent.toLowerCase()
+    if ((navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1)) {
+      this.dialog = true
+    } else {
+      this.closeDialog()
+    }
+  },
+  methods: {
+    closeDialog() {
+      this.dialog = false
+    }
   }
 }
 </script>
@@ -53,7 +74,7 @@ export default {
   .project-wrapper {
     display: none;
   }
-  
+
   .alert-wrapper {
     display: block;
   }
